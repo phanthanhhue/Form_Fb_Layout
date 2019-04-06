@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0% auto;
+    width: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.log-in-form {
+    background-color: #0073c5;
+}
+
+.sign-in-form {
+    background-color: rgb(221, 219, 217);
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.form-field {
+    float: left;
+    width: 33.33%;
+    padding: 10px 10px;
+    color: white;
+}
+
+.form-field a {
+    color: white;
+    text-decoration: none;
+}
+
+/* DOM css */
+.form-field input[type="text"], .form-field input[type="password"] {
+    width: 100%;
+    margin: 3px 0;
+    height: 30px;
+}
+
+.form-field input[type="checkbox"] {
+    transform: translate(0, 2px);
+}
+
+.btn-login {
+    background-color: #084169;
+    color:white;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.btn-login:hover {
+    background-color: #0bb9ee;
+    cursor: pointer;
+}
+
+h1, p {
+    padding: 10px 10px;
+}
+
+hr {
+    width: 70%;
+    margin: 0 auto;
+    size: 2px;    
+}
+
+.sign-up-form {
+    margin: 20px 10px;
+}
+
+.signupform-field {
+    margin: 10px;
+}
+
+.signupform-field label {
+    display: inline-block;
+    width: 25%;
+}
+
+.signupform-field input[type="text"], .signupform-field input[type="tel"] {
+    width: 70%;
+    height: 30px;
+}
+
+.signupform-field textarea {
+    width: 70%;
+}
+
+.signupform-hobbies label {
+    vertical-align: top;
+}
+
+.signupform-date-of-birth select {
+    height: 30px;
+    width: 23%;
+}
+
+.btn-signupform-submit {
+    background-color: #03e459;
+    padding: 7px 13px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+.signupform-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-signupform-submit:hover {
+    background-color: #7dff04;
+}
+
